@@ -1,7 +1,7 @@
 weatherApp.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: 'partials/home.htm', 
+            templateUrl: 'partials/home.html', 
             controller: 'homeController'
         })
         .when('/forecast', {
